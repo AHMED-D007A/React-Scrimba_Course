@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "inter", sans-serif;
+    background-color: #282d35;
+}
+
+.nav-bar > img {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #21222a;
+}
+
+.reactfacts {
+    margin: 0px;
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 0;
+    padding-left: 5px;
+    font-size: xx-large;
+    color: #61dafb;
+}
+
+.project-1 {
+    margin-left: auto;
+    color: white;
+    margin-right: 30px;
+}
+
+.funfacts {
+    color: white;
+    margin: 30px;
+    letter-spacing: .1px;
+}
+
+.main-body {
+    position: relative;
+}
+
+.main-body > img {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+.facts-list li {
+    color: white;
+    margin: 20px;
+    font-size: large;
+}
+
+.facts-list li::marker {
+    color: #61dafb;
+    font-size: x-large;
+}
