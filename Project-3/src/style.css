@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: #f55a5a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--p {
+    display: inline;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.journals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 50px;
+    height: 336px;
+}
+
+.j--img {
+    width: 250px;
+    height: 336px;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+
+.j--logo {
+    width: 14px;
+    height: 19.09px;
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 3px;
+}
+
+.j--country {
+    height: fit-content;
+    width: fit-content;
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:3px;
+}
+
+.j--link {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #777;
+}
+
+.j--h1 {
+    height: fit-content;
+    width: fit-content;
+    width: calc(100% - 290px);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.j--date {
+    height: fit-content;
+    width: calc(100% - 290px);
+}
+
+.j--dis {
+    width: calc(100% - 290px);
+    margin-top: 15px;
+    color: #555;
+}
+
+.line1 {
+    display: flex;
+    width: calc(100% - 290px);
+    margin-top: 40px
+}
